@@ -1,0 +1,6 @@
+﻿version: '3.8'
+services:
+   sqlserver:
+      image : "mcr.microsoft.com/mssql/server:2019-latest"
+      environment:
+      ACCEPT_EULAL
