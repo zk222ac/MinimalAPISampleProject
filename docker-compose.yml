@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  minimalapisampleproject:
+    image: ${DOCKER_REGISTRY-}minimalapisampleproject
+    build:
+      context: .
+      dockerfile: MinimalAPISampleProject\Dockerfile
