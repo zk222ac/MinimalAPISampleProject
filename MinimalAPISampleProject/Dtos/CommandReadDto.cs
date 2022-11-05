@@ -8,7 +8,7 @@ namespace MinimalAPISampleProject.Dtos
        
         public string? HotTo { get; set; }
         
-        //public string? Plateform { get; set; }
+        public string? Plateform { get; set; }
         
         public string? CommandLine { get; set; }
 
